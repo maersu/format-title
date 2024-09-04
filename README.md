@@ -1,4 +1,4 @@
-# Chrome extension: Fromat Title
+# Chrome extension: Format Title
 
 This Chrome extension appends the hostname and pathname of the current URL to the original page title.
 

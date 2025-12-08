@@ -1,10 +1,22 @@
-# Chrome extension: Format Title
+# Format Title
 
-This Chrome extension appends the hostname and pathname of the current URL to the original page title.
+Chrome extension that enhances page titles with hostname and path.
 
-## How it works:
+**Normal:** `Example Domain` → `Example Domain - example.com/`  
+**Incognito:** `Example Domain` → `🕵️ Example Domain - example.com/`
 
-1. The extension runs in the background, monitoring tab updates.
-2. When a page is fully loaded, it constructs a new title using the format:
-   `[Original Title] - [hostname][pathname]`
-3. The new title is then sent to the content script, which updates the page's title.
+## Installation
+
+1. Go to `chrome://extensions`
+2. Enable **Developer mode**
+3. Click **Load unpacked** → select this folder
+
+## Enable Incognito
+
+1. Go to `chrome://extensions` → click **Details** on the extension
+2. Toggle **"Allow in Incognito"** ON
+
+## Debugging
+
+- **Background logs:** `chrome://extensions` → click "service worker"
+- **Content logs:** Open DevTools (F12) on any page

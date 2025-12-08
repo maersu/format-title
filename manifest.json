@@ -4,6 +4,7 @@
   "version": "1.0",
   "description": "Formats page title to include hostname and path",
   "permissions": ["tabs"],
+  "incognito": "spanning",
   "background": {
     "service_worker": "background.js"
   },

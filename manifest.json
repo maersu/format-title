@@ -3,8 +3,24 @@
   "name": "Title Formatter",
   "version": "1.0",
   "description": "Formats page title to include hostname and path",
-  "permissions": ["tabs"],
+  "permissions": ["activeTab", "scripting", "tabs"],
   "incognito": "spanning",
+  "icons": {
+    "16": "icons/icon-16.png",
+    "32": "icons/icon-32.png",
+    "48": "icons/icon-48.png",
+    "128": "icons/icon-128.png"
+  },
+  "action": {
+    "default_title": "Title Formatter",
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icons/icon-16.png",
+      "32": "icons/icon-32.png",
+      "48": "icons/icon-48.png",
+      "128": "icons/icon-128.png"
+    }
+  },
   "background": {
     "service_worker": "background.js"
   },

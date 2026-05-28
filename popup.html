@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Title Formatter</title>
+    <link rel="stylesheet" href="popup.css">
+  </head>
+  <body>
+    <main class="popup">
+      <header class="header">
+        <img src="icons/icon-32.png" width="32" height="32" alt="">
+        <div>
+          <h1>Title Formatter</h1>
+          <p id="status">Checking this page...</p>
+        </div>
+      </header>
+
+      <section class="details" aria-label="Current page changes">
+        <div class="row">
+          <span>Original</span>
+          <strong id="original-title">-</strong>
+        </div>
+        <div class="row">
+          <span>Current</span>
+          <strong id="current-title">-</strong>
+        </div>
+        <div class="row">
+          <span>Added</span>
+          <strong id="added-text">-</strong>
+        </div>
+      </section>
+
+      <p class="updated" id="updated-at"></p>
+    </main>
+
+    <script src="popup.js"></script>
+  </body>
+</html>

@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "Title Formatter",
-  "version": "1.0",
+  "version": "1.1.0",
   "description": "Formats page title to include hostname and path",
   "permissions": ["activeTab", "scripting", "tabs"],
   "incognito": "spanning",
